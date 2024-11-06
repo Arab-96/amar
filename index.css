@@ -1,0 +1,164 @@
+body{
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header img{
+    width: 20px;
+    height: 20px;
+}
+.trendo{
+    font-size: large;
+    font-weight: bold;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    list-style: none;  
+}
+.search{
+    display: flex;
+    justify-content: ;
+    align-items: center;
+    width: 120px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+.four{
+    width: 12px;
+    height: 12px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: black;
+    color: white;
+    top: 22px;
+    right: 34px;
+}
+.subhead{
+    display: flex;
+    gap: 20px;
+}
+.column{
+    display: flex;
+    gap: 10px;
+}
+.c1 img{
+    width: 100px;
+    height: 100px;
+    border: 1px;
+    border-radius: 10px;
+}
+.c1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.c2 img{
+    height: 540px;
+    border: 1px;
+    border-radius: 10px;
+}
+.nike{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.nike img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+}
+span{
+    color: rgb(255, 153, 0);
+}
+b{
+    color: none !important;
+}
+.cc3 img{
+   width: 100px; 
+   height: 100px;
+   border-radius: 10px;
+}
+.cc3:nth-child(2){
+    border-radius: 1px solid black;
+}
+.cc3{
+    display: flex;
+    gap: 5px;
+}
+.select{
+    display: flex;
+    justify-content: space-between;
+}
+.select1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.select1 a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.select1 a:nth-child(2){
+    background-color: black;
+    color: white;
+}
+.cart img{
+    width: 20px;
+    height: 20px;
+}
+.cart{
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+
+}
+.addtocart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    gap: 2px;
+}
+.loveicon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.delivery{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+
+}
+.delivery img{
+    width: 20px;
+    height: 20px;
+}
